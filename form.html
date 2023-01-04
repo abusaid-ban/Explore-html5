@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form input label legend text area submit</title>
+    <style>
+        label{
+            display:block;
+        }
+        legend{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to Sayeed laptop shop</h2>
+    
+      <form >  <label for="name"> Name <input id="name" type="text" placeholder="your name"></label>
+        
+    
+    
+        <label for="email">Email<input id="email" type="email" placeholder="your email"></label>
+        
+    
+    
+        <label for="phone "> phone number <input id="phone " type="number" placeholder="your phone"></label>
+       
+    
+    <fieldset>
+        <legend>Choose your Brand</legend>
+        <label for="Hp">
+          <input type="radio" name="Laptop" id="Hp">Hp 
+        </label>
+        <label for="Mac">
+          <input type="radio" name="Laptop" id="Mac">Mac 
+        </label>
+        <label for="Doel">
+          <input type="radio" name="Laptop" id="Doel">Doel
+        </label>
+        <label for="Lava">
+          <input type="radio" name="Laptop" id="Lava">Lava
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Price Range</legend>
+        <label for="20k">
+            <input type="radio" name="price" id="20k">20000-25000  </label>
+        <label for="25k">
+            <input type="radio" name="price" id="25k">25000-30000 </label>
+        <label for="30k">
+            <input type="radio" name="price" id="30k">30000-35000</label>
+    </fieldset>
+    <fieldset>
+        <legend>your opinion</legend>
+        <label for="textarea">
+            <textarea name="opinion" id="textarea" cols="40" rows="3"></textarea>
+    </fieldset>
+    <label for="c-box"><input type="checkbox" name="check" id="c-box"></label>
+   
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
